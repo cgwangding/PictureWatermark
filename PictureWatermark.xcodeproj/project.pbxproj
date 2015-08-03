@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC580D411B6F1133000660BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC580D401B6F1133000660BC /* main.m */; };
+		DC580D441B6F1133000660BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC580D431B6F1133000660BC /* AppDelegate.m */; };
+		DC580D471B6F1133000660BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC580D461B6F1133000660BC /* ViewController.m */; };
+		DC580D4A1B6F1133000660BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC580D481B6F1133000660BC /* Main.storyboard */; };
+		DC580D4C1B6F1133000660BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC580D4B1B6F1133000660BC /* Images.xcassets */; };
+		DC580D4F1B6F1133000660BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC580D4D1B6F1133000660BC /* LaunchScreen.xib */; };
+		DC580D5B1B6F1133000660BC /* PictureWatermarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC580D5A1B6F1133000660BC /* PictureWatermarkTests.m */; };
+		DC580D681B6F1178000660BC /* 092344103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC580D671B6F1178000660BC /* 092344103.jpg */; };
+		DC580D6A1B6F1DD4000660BC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC580D691B6F1DD4000660BC /* 1.png */; };
+		DC580D6D1B6F3DB2000660BC /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = DC580D6C1B6F3DB2000660BC /* UIImage+WaterMark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC580D551B6F1133000660BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC580D331B6F1133000660BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC580D3A1B6F1133000660BC;
+			remoteInfo = PictureWatermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC580D3B1B6F1133000660BC /* PictureWatermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureWatermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC580D3F1B6F1133000660BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC580D401B6F1133000660BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC580D421B6F1133000660BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC580D431B6F1133000660BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC580D451B6F1133000660BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC580D461B6F1133000660BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC580D491B6F1133000660BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC580D4B1B6F1133000660BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC580D4E1B6F1133000660BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC580D541B6F1133000660BC /* PictureWatermarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureWatermarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC580D591B6F1133000660BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC580D5A1B6F1133000660BC /* PictureWatermarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureWatermarkTests.m; sourceTree = "<group>"; };
+		DC580D671B6F1178000660BC /* 092344103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 092344103.jpg; sourceTree = "<group>"; };
+		DC580D691B6F1DD4000660BC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DC580D6B1B6F3DB2000660BC /* UIImage+WaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMark.h"; sourceTree = "<group>"; };
+		DC580D6C1B6F3DB2000660BC /* UIImage+WaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMark.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC580D381B6F1133000660BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC580D511B6F1133000660BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC580D321B6F1133000660BC = {
+			isa = PBXGroup;
+			children = (
+				DC580D3D1B6F1133000660BC /* PictureWatermark */,
+				DC580D571B6F1133000660BC /* PictureWatermarkTests */,
+				DC580D3C1B6F1133000660BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC580D3C1B6F1133000660BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC580D3B1B6F1133000660BC /* PictureWatermark.app */,
+				DC580D541B6F1133000660BC /* PictureWatermarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC580D3D1B6F1133000660BC /* PictureWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				DC580D691B6F1DD4000660BC /* 1.png */,
+				DC580D671B6F1178000660BC /* 092344103.jpg */,
+				DC580D421B6F1133000660BC /* AppDelegate.h */,
+				DC580D431B6F1133000660BC /* AppDelegate.m */,
+				DC580D451B6F1133000660BC /* ViewController.h */,
+				DC580D461B6F1133000660BC /* ViewController.m */,
+				DC580D481B6F1133000660BC /* Main.storyboard */,
+				DC580D4B1B6F1133000660BC /* Images.xcassets */,
+				DC580D4D1B6F1133000660BC /* LaunchScreen.xib */,
+				DC580D3E1B6F1133000660BC /* Supporting Files */,
+				DC580D6B1B6F3DB2000660BC /* UIImage+WaterMark.h */,
+				DC580D6C1B6F3DB2000660BC /* UIImage+WaterMark.m */,
+			);
+			path = PictureWatermark;
+			sourceTree = "<group>";
+		};
+		DC580D3E1B6F1133000660BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC580D3F1B6F1133000660BC /* Info.plist */,
+				DC580D401B6F1133000660BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC580D571B6F1133000660BC /* PictureWatermarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC580D5A1B6F1133000660BC /* PictureWatermarkTests.m */,
+				DC580D581B6F1133000660BC /* Supporting Files */,
+			);
+			path = PictureWatermarkTests;
+			sourceTree = "<group>";
+		};
+		DC580D581B6F1133000660BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC580D591B6F1133000660BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC580D3A1B6F1133000660BC /* PictureWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC580D5E1B6F1133000660BC /* Build configuration list for PBXNativeTarget "PictureWatermark" */;
+			buildPhases = (
+				DC580D371B6F1133000660BC /* Sources */,
+				DC580D381B6F1133000660BC /* Frameworks */,
+				DC580D391B6F1133000660BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureWatermark;
+			productName = PictureWatermark;
+			productReference = DC580D3B1B6F1133000660BC /* PictureWatermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC580D531B6F1133000660BC /* PictureWatermarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC580D611B6F1133000660BC /* Build configuration list for PBXNativeTarget "PictureWatermarkTests" */;
+			buildPhases = (
+				DC580D501B6F1133000660BC /* Sources */,
+				DC580D511B6F1133000660BC /* Frameworks */,
+				DC580D521B6F1133000660BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC580D561B6F1133000660BC /* PBXTargetDependency */,
+			);
+			name = PictureWatermarkTests;
+			productName = PictureWatermarkTests;
+			productReference = DC580D541B6F1133000660BC /* PictureWatermarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC580D331B6F1133000660BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Adinnet;
+				TargetAttributes = {
+					DC580D3A1B6F1133000660BC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DC580D531B6F1133000660BC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DC580D3A1B6F1133000660BC;
+					};
+				};
+			};
+			buildConfigurationList = DC580D361B6F1133000660BC /* Build configuration list for PBXProject "PictureWatermark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC580D321B6F1133000660BC;
+			productRefGroup = DC580D3C1B6F1133000660BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC580D3A1B6F1133000660BC /* PictureWatermark */,
+				DC580D531B6F1133000660BC /* PictureWatermarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC580D391B6F1133000660BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC580D4A1B6F1133000660BC /* Main.storyboard in Resources */,
+				DC580D4F1B6F1133000660BC /* LaunchScreen.xib in Resources */,
+				DC580D681B6F1178000660BC /* 092344103.jpg in Resources */,
+				DC580D4C1B6F1133000660BC /* Images.xcassets in Resources */,
+				DC580D6A1B6F1DD4000660BC /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC580D521B6F1133000660BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC580D371B6F1133000660BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC580D471B6F1133000660BC /* ViewController.m in Sources */,
+				DC580D441B6F1133000660BC /* AppDelegate.m in Sources */,
+				DC580D6D1B6F3DB2000660BC /* UIImage+WaterMark.m in Sources */,
+				DC580D411B6F1133000660BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC580D501B6F1133000660BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC580D5B1B6F1133000660BC /* PictureWatermarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC580D561B6F1133000660BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC580D3A1B6F1133000660BC /* PictureWatermark */;
+			targetProxy = DC580D551B6F1133000660BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC580D481B6F1133000660BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC580D491B6F1133000660BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC580D4D1B6F1133000660BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC580D4E1B6F1133000660BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC580D5C1B6F1133000660BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC580D5D1B6F1133000660BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC580D5F1B6F1133000660BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictureWatermark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC580D601B6F1133000660BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PictureWatermark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC580D621B6F1133000660BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PictureWatermarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureWatermark.app/PictureWatermark";
+			};
+			name = Debug;
+		};
+		DC580D631B6F1133000660BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PictureWatermarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureWatermark.app/PictureWatermark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC580D361B6F1133000660BC /* Build configuration list for PBXProject "PictureWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC580D5C1B6F1133000660BC /* Debug */,
+				DC580D5D1B6F1133000660BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC580D5E1B6F1133000660BC /* Build configuration list for PBXNativeTarget "PictureWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC580D5F1B6F1133000660BC /* Debug */,
+				DC580D601B6F1133000660BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC580D611B6F1133000660BC /* Build configuration list for PBXNativeTarget "PictureWatermarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC580D621B6F1133000660BC /* Debug */,
+				DC580D631B6F1133000660BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC580D331B6F1133000660BC /* Project object */;
+}
